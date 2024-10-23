@@ -70,9 +70,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Project Steps
+## Start
 ```bash
 $ npx create-react-app react-demo2
 $ cd react-demo2
 
-$ npm install sass -D
+$ yarn add sass -D
+$ yarn add eslint-config-react-app -D
+```
+
+## Add UI Library
+> Ant Design
+> https://ant-design.antgroup.com/docs/react/introduce-cn
+
+```bash
+$ yarn add antd
+```
+
+## Add Router
+> https://reactrouter.com/en/main/start/overview
+
+```bash
+$ yarn add react-router-dom
 ```
