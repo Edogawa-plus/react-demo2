@@ -75,8 +75,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 $ npx create-react-app react-demo2
 $ cd react-demo2
 
-$ yarn add sass -D
-$ yarn add eslint-config-react-app -D
+$ npm install sass -D
+$ npm install eslint-config-react-app -D
 ```
 
 ## Add UI Library
@@ -84,12 +84,17 @@ $ yarn add eslint-config-react-app -D
 > https://ant-design.antgroup.com/docs/react/introduce-cn
 
 ```bash
-$ yarn add antd
+$ npm install antd
 ```
 
 ## Add Router
 > https://reactrouter.com/en/main/start/overview
 
 ```bash
-$ yarn add react-router-dom
+$ npm install react-router-dom
+```
+
+## Add alias name `@`
+```bash
+$ npm install @craco/craco -D
 ```

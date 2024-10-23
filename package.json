@@ -14,10 +14,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "start:react": "react-scripts start",
+    "build:react": "react-scripts build",
+    "test:react": "react-scripts test",
+    "eject:react": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-react-app": "^7.0.1",
+    "@craco/craco": "^7.1.0",
     "sass": "^1.80.3"
   }
 }
