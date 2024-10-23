@@ -1,6 +1,6 @@
 import "./index.scss";
 import { Card, Form, Input, Button } from "antd";
-import logo from '@/assets/login_bg.png'
+import logo from '@/assets/logo.png'
 
 const Login = () => {
   return (
