@@ -4,6 +4,7 @@
  * 3. 请求拦截器
  */
 import axios from "axios";
+import { getToken } from "@/utils";
 
 const request = axios.create({
   baseURL: '/',
@@ -11,6 +12,11 @@ const request = axios.create({
 });
 
 request.interceptors.request.use(config => {
+  // 注入 token
+  const token = getToken()
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`
+  }
   return config;
 }, error => {
   return Promise.reject(error);
