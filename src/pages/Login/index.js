@@ -13,7 +13,7 @@ const Login = () => {
     console.log("🚀 ~ onFinish ~ values:", values);
     await dispatch(fetchLogin(values));
     navigate('/');
-    message('登录成功');
+    message.success('登录成功');
   }
   const onFinishFailed = ({ values, errorFields, outOfDate }) => {
     console.log(values, errorFields, outOfDate);
